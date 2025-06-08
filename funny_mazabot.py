@@ -7,12 +7,7 @@ bot = telebot.TeleBot(TOKEN)
 
 # Funny responses ka collection
 jokes = [
-    "Arre, tu kya programmer hai? Tab toh tera dil bhi binary mein dhadakta hoga! 😜",
-    "Ek baar computer ne apne bhai se kaha: 'Bhai, tu thodi RAM badha!' 😅",
-    "Pyaar wali coffee: Espresso Yourself! ☕😉",
-    "Mujhe kyun lagta hai tu aaj bot se baat karke hasne wala hai? 😎",
-    "Chai peete peete code likha jaaye, ya code likhte likhte chai piya jaaye? 😜"
-]
+    
 
 # /start command
 @bot.message_handler(commands=['start'])
